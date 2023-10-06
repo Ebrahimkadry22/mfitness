@@ -1,0 +1,19 @@
+.wapper-a {
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(../../../public/image/about.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.about  {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+}
+.about h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+}

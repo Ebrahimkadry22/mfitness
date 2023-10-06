@@ -1,0 +1,52 @@
+.wapper-n {
+    padding: .8rem 0;
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.wapper-n .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 30px;
+}
+.logo {
+    color: #dfdfdf;
+    font-size: 1.1rem;
+}
+.logo span {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #ffc802;
+}
+.meun {
+    display: flex;
+    gap: 1rem;
+}
+
+.bar {
+  display: none;
+  cursor: pointer;
+}
+@media (max-width:768px) {
+    .meun {
+        position: fixed;
+        top: 60px;
+        right: 15px;
+        flex-direction: column;
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, .9);
+        border-radius: 1rem;
+        transition: all .5s ease-in-out;
+    }
+    .bar {
+        display: block;
+    }
+}

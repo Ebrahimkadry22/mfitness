@@ -1,0 +1,26 @@
+.warrper-h{
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(../../../public/image/header-bg-img.d6d62e36.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.warrper-h .container {
+    height: 100%;
+    color: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container h1 {
+    margin-bottom: 1.2rem;
+    font-weight: 400;
+}
+.container p {
+    margin-bottom: 1.2rem;
+}
+.btn-white {
+    background-color: transparent !important;
+    color: white !important;
+    border: .1rem solid white !important;
+}

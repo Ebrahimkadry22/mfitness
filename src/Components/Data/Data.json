@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "image":"1.jpeg",
+        "title":"Body Building"
+    },
+    {
+        "id":2,
+        "image":"2.jpeg",
+        "title":"Cross Fit"
+    },
+    {
+        "id":3,
+        "image":"3.webp",
+        "title":"Gymnastic"
+    },
+    {
+        "id":4,
+        "image":"4.jpeg",
+        "title":"Fitness"
+    },
+    {
+        "id":5,
+        "image":"5.jpeg",
+        "title":"TRX"
+    },
+    {
+        "id":6,
+        "image":"6.jpeg",
+        "title":"Boxing"
+    }
+]
